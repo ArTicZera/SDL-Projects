@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
 {
     SDL_Init(SDL_INIT_EVERYTHING);
 
-    SDL_Window* window = SDL_CreateWindow("Text Wave", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP);
+    SDL_Window* window = SDL_CreateWindow("Mandelbrot Explorer", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 0, 0, SDL_WINDOW_FULLSCREEN_DESKTOP);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     SDL_RenderSetLogicalSize(renderer, w, h);
 
