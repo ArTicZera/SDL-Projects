@@ -8,3 +8,6 @@ A Collection of projects made by me. <br /><br />
 
 - Plasma: <br />
 ![plasma](Screenshots/Plasma.png)
+
+- Torus: <br />
+![torus](Screenshots/Torus.png)
